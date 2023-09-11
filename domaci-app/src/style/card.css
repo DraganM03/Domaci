@@ -65,3 +65,11 @@ body{
 .unknown{
     background-color: #696969;
 }
+
+a.cardLink{
+    color: #00d4ff;
+}
+
+a.cardLink:hover{
+    color: #a4f0ff;
+}

@@ -20,6 +20,6 @@ export const LoadApi = ()=>{
         loadDataFromApi()
     },[])
 
-    return results.map(({image, name, status},index) => <Card key={index} image={image} name={name} status={status}/>)
+    return results.map(({image, name, status, url},index) => <Card key={index} image={image} name={name} status={status} url={url}/>)
 
 }
